@@ -8,14 +8,16 @@ footer {
 }
 
 body {
-  background-color: #0B6256;;
+  background-color: #0F8273;
    }
 
 .nav_flag {
   background-color: #08413A;
 }
-h2{
-  color: #F8FAA7;
+
+/*h2 {*/
+/*  text-decoration-color: #F8FAA7;*/
+/*  !*color: #F8FAA7;*!*/
 
 }
 .col-centered{
@@ -23,6 +25,13 @@ h2{
    margin: 0 auto;
 }
 
+p {
+   margin-top: 20px;
+}
+
+nav {
+  color: #F8FAA7;
+}
 /*.slide {*/
 /* color: #08413A;*/
 /*  */
