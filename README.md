@@ -4,5 +4,5 @@
 _Автор Гурьянов И.В._
 
 
-Remastering of existing site
+Attemps of existing site remastering&redesign
 <https://flagconsulting.ru/>
