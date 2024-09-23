@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Флагиан Консалтинг</title>
-    <!--    <link type="image/svg" sizes="16x16" href="../../IPAP%20vanya-1/images/Python-logo-notext.svg">-->
+<!--        <link rel="icon" type="image/svg+xml" sizes="any" href="/путь_к_файлу/favicon.svg">-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="css/style.css">
@@ -23,47 +23,90 @@
     <!-- шапка -->
     <header>
         <!--     OFFcanvas  навигация -->
-        <nav class="navbar bg-body-tertiary fixed-top">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Навигационная панель Offcanvas</a>
+                <a class="navbar-brand" href="#">Флагман Консалтинг лого</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                     aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Флагман Консалтинг</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Флагман Консалтинг</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                                <a class="nav-link active" aria-current="page" href="#">Консалтинг</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">+7 911 199-79-72</a>
-                            </li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                    aria-expanded="false">
-                                    Выпадающий список
+                                    Оценка персонала
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Консалтинг</a></li>
-
-                                    <li><a class="dropdown-item" href="#">Оценка</a></li>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Какие задачи решаем</a></li>
+                                    <li><a class="dropdown-item" href="#">Оценочные инструменты</a></li>
+                                    <li><a class="dropdown-item" href="#">Целевые аудитории для оценки</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">ТренингиЭксперты</a></li>
+                                    <li><a class="dropdown-item" href="#">Наши Преимущества</a></li>
                                 </ul>
+
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                   aria-expanded="false">
+                                    Тренинги
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Для Менеджеров по работе <br> с ключевыми
+                                        клиентами (KAM)</a></li>
+                                    <li><a class="dropdown-item" href="#">Для аптечных <br>и медицинских
+                                        представителей<br>Полевые силы</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Для Лидеров коммерческих команд <br> Менеджеров
+                                        back-office</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                   aria-expanded="false">
+                                    ЭКСПЕРТЫ
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Лидеры команды</a></li>
+                                    <li><a class="dropdown-item" href="#">Почему выбирают нас</a></li>
+<!--                                    <li>-->
+<!--                                        <hr class="dropdown-divider">-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>-->
+                                </ul>
+
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Этапы реализации проектов</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Реализованные проекты <br>Отзывы участников</a>
+                                <a class="nav-link" href="#">О нас</a>
+                                <a class="nav-link" href="#">Контакты. Обратная связь</a>
                             </li>
                         </ul>
                         <form class="d-flex mt-3" role="search">
                             <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
-                            <button class="btn btn-outline-success" type="submit">Поиск</button>
+                            <button class="btn btn-success" type="submit">Поиск</button>
                         </form>
                     </div>
                 </div>
@@ -72,52 +115,53 @@
         <!--       навигация -->
         <h1>ЦЕНТР РАЗВИТИЯ ПЕРСОНАЛА</h1>
     </header>
+
     <!-- end of шапка -->
     <!--карусель Целевые аудитории для оценки-->
-<!--    <h2 class="montserrat-alternates-bold">Целевые аудитории для оценки</h2>-->
-<!--    <div id="carouselExampleCaptions" class="carousel slide">-->
-<!--        <div class="carousel-indicators">-->
-<!--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"-->
-<!--                    aria-current="true" aria-label="Slide 1"></button>-->
-<!--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"-->
-<!--                    aria-label="Slide 2"></button>-->
-<!--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"-->
-<!--                    aria-label="Slide 3"></button>-->
-<!--        </div>-->
-<!--        <div class="carousel-inner">-->
-<!--            <div class="carousel-item active">-->
-<!--                <img src="..." class="d-block w-100" alt="...">-->
-<!--                <div class="carousel-caption d-none d-md-block">-->
-<!--                    <h5>Метка первого слайда</h5>-->
-<!--                    <p>Некоторый репрезентативный заполнитель для первого слайда.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="carousel-item">-->
-<!--                <img src="..." class="d-block w-100" alt="...">-->
-<!--                <div class="carousel-caption d-none d-md-block">-->
-<!--                    <h5>Метка второго слайда</h5>-->
-<!--                    <p>Некоторый репрезентативный заполнитель для второго слайда.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="carousel-item">-->
-<!--                <img src="..." class="d-block w-100" alt="...">-->
-<!--                <div class="carousel-caption d-none d-md-block">-->
-<!--                    <h5>Метка третьего слайда</h5>-->
-<!--                    <p>Некоторый репрезентативный заполнитель для третьего слайда.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"-->
-<!--                data-bs-slide="prev">-->
-<!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-<!--            <span class="visually-hidden">Предыдущий</span>-->
-<!--        </button>-->
-<!--        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"-->
-<!--                data-bs-slide="next">-->
-<!--            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-<!--            <span class="visually-hidden">Следующий</span>-->
-<!--        </button>-->
-<!--    </div>-->
+    <!--    <h2 class="montserrat-alternates-bold">Целевые аудитории для оценки</h2>-->
+    <!--    <div id="carouselExampleCaptions" class="carousel slide">-->
+    <!--        <div class="carousel-indicators">-->
+    <!--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"-->
+    <!--                    aria-current="true" aria-label="Slide 1"></button>-->
+    <!--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"-->
+    <!--                    aria-label="Slide 2"></button>-->
+    <!--            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"-->
+    <!--                    aria-label="Slide 3"></button>-->
+    <!--        </div>-->
+    <!--        <div class="carousel-inner">-->
+    <!--            <div class="carousel-item active">-->
+    <!--                <img src="..." class="d-block w-100" alt="...">-->
+    <!--                <div class="carousel-caption d-none d-md-block">-->
+    <!--                    <h5>Метка первого слайда</h5>-->
+    <!--                    <p>Некоторый репрезентативный заполнитель для первого слайда.</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="carousel-item">-->
+    <!--                <img src="..." class="d-block w-100" alt="...">-->
+    <!--                <div class="carousel-caption d-none d-md-block">-->
+    <!--                    <h5>Метка второго слайда</h5>-->
+    <!--                    <p>Некоторый репрезентативный заполнитель для второго слайда.</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="carousel-item">-->
+    <!--                <img src="..." class="d-block w-100" alt="...">-->
+    <!--                <div class="carousel-caption d-none d-md-block">-->
+    <!--                    <h5>Метка третьего слайда</h5>-->
+    <!--                    <p>Некоторый репрезентативный заполнитель для третьего слайда.</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"-->
+    <!--                data-bs-slide="prev">-->
+    <!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+    <!--            <span class="visually-hidden">Предыдущий</span>-->
+    <!--        </button>-->
+    <!--        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"-->
+    <!--                data-bs-slide="next">-->
+    <!--            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+    <!--            <span class="visually-hidden">Следующий</span>-->
+    <!--        </button>-->
+    <!--    </div>-->
     <!-- end of Карусель Целевые аудитории для оценки-->
 </div>
 <!-- end of Главный контейнер -->
