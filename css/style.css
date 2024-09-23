@@ -15,9 +15,11 @@ body {
   background-color: #08413A;
 }
 
-/*h2 {*/
-/*  text-decoration-color: #F8FAA7;*/
-/*  !*color: #F8FAA7;*!*/
+h1, h2 {
+  /*text-decoration-color: #F8FAA7;*/
+  color: #F8FAA7;
+  align-items: center;
+
 
 }
 .col-centered{
