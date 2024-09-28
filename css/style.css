@@ -34,6 +34,14 @@ p {
 nav {
   color: #F8FAA7;
 }
+
+.bg-card {
+  background-color: #FCFDCF;
+}
+.offcanvasDarkNavbar2 {
+  color: #78E100;
+  background-color: rgba(8,65,58, .95);
+}
 /*.slide {*/
 /* color: #08413A;*/
 /*  */

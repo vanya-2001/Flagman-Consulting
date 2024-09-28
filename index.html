@@ -34,15 +34,15 @@
                         data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                <div class="offcanvas offcanvas-end  offcanvasDarkNavbar2" data-bs-scroll="true" tabindex="-1" id="offcanvasDarkNavbar"
                      aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Флагман Консалтинг</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Консалтинг</a>
                             </li>
@@ -122,10 +122,18 @@
     </header>
     <!-- end of шапка -->
     <!--хлебные крошки-->
-        <nav class="crumb" aria-label="breadcrumb">
-        <ol class="breadcrumb ">
-            <li class="breadcrumb-item active " aria-current="page">Главная</li>
-        </ol>
+<!--    <nav class="crumb" aria-label="breadcrumb">-->
+<!--        <ol class="breadcrumb ">-->
+<!--            <li class="breadcrumb-item active " aria-current="page" style="color: #78E100 ">Главная</li>-->
+<!--        </ol>-->
+<!--    </nav>-->
+            <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"style="color: #78E100">Главная</li>
+            <li class="breadcrumb-item"><a href="about.html">Команда экспертов</a></li>
+            <li class="breadcrumb-item"><a href="contacts.html">Контакты</a></li>
+<!--            <li class="breadcrumb-item active" aria-current="page">О нас</li>-->
+          </ol>
         </nav>
     <!--хлебные крошки-->
 
@@ -134,7 +142,7 @@
         <h1 class="text-center pb-3">Тренинги</h1>
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><!--первая колонка про горы-->
             <div class="card h-100">
-                <div class="card-body">
+                <div class="card-body bg-card">
                     <h5 class="card-title">Менеджеры по работе с ключевыми клиентами</h5>
                     <img src="images/slides/slide1.jpg" class="card-img-top rounded"
                          alt="Менеджеры по работе с ключевыми клиентами">
@@ -211,7 +219,7 @@
     <div class="row"><!--помещаем в блок для центровки-->
         <div class="col-sm-8 col-centered"><!--в этом блоке всего одна колонка 1/10 от контейнера-->
 
-                    <h2 class="montserrat-alternates-bold">Целевые аудитории для оценки</h2>
+            <h2 class="montserrat-alternates-bold">Целевые аудитории для оценки</h2>
             <br>
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
@@ -264,9 +272,9 @@
 </div>
 <!--подвал-->
 <br>
-<footer class="bg-body-tertiary text-center text-lg-start">
+<footer class="nav_flag text-center text-lg-start">
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.05);">
+    <div class="text-center p-3" style="color: #F8FAA7">
         © 2024 Флагиан Консалтинг
     </div>
     <!-- Copyright -->
