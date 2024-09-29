@@ -4,12 +4,12 @@ nav,
 article,
 aside,
 footer {
-    display: flex;
+    display: block;
 }
 
 body {
-  background-color: #0F8273;
-   }
+  background-color: #0B6256
+  }
 
 .nav_flag {
   background-color: #08413A;
