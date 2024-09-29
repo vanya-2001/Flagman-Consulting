@@ -5,24 +5,53 @@
 /*  box-sizing: inherit;*/
 /*}*/
 
-.parent {
-  width: 50%;
-  border: 5px solid #E18728;
-  float: left;
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
 }
 
-.child {
-  width: 90%;
-  padding: 20%;
-  border: 4px solid black;
-  margin: .5em auto;
+.wrapper > * {
+  padding: .5em;
+  flex: 1 100%;
 }
 
-.twins {
-  width: 50%;
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+  background: hotpink;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+body {
   padding: 1em;
-  border: 4px solid black;
-  float: left;
 }
 
 
