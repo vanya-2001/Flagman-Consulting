@@ -4,7 +4,7 @@ nav,
 article,
 aside,
 footer {
-    display: block;
+    display: flex;
 }
 
 body {
@@ -44,20 +44,22 @@ nav {
 }
 .titul{
   font-weight:200;
-  font-size: 2.7em;
+  /*font-size: 2.7em;*/
+  font-size: 1.2em;
   color: #78E100
 }
 .titul_2{
-  font-size: 3.8em;
+  /*font-size: 3.8em;*/
+  /*font-size: 1.0em;*/
   color: #08413A;
 }
 .titul_3 {
   background-color: #78E100;
   color: #0F8273;
-  border: #F8FAA7;
+  /*border: #F8FAA7;*/
   /*border-radius: .1em;*/
   font-size: 1em;
-  padding: 1em;
+  padding: .5em;
   /*border-radius: inherit;*/
 
 }
